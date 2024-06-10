@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-config-server" />
+        <module name="ms-gateway-server" />
+        <module name="ms-auth" />
+        <module name="servicio-jurados" />
+        <module name="Servicio-evaluaciones" />
+        <module name="ms-gestionareasylineas" />
+        <module name="ms-GestionTesis-ProjectoTesis" />
+        <module name="ms-gestiondocentes" />
+        <module name="Ms-registry-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Ms-registry-server" options="-parameters" />
+      <module name="Servicio-evaluaciones" options="-parameters" />
+      <module name="ms-GestionTesis-ProjectoTesis" options="-parameters" />
+      <module name="ms-auth" options="-parameters" />
+      <module name="ms-config-server" options="-parameters" />
+      <module name="ms-gateway-server" options="-parameters" />
+      <module name="ms-gestionareasylineas" options="-parameters" />
+      <module name="ms-gestiondocentes" options="-parameters" />
+      <module name="servicio-jurados" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
